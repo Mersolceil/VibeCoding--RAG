@@ -1,0 +1,13 @@
+# Python 环境
+.venv/
+__pycache__/
+*.pyc
+
+# 模型和大数据文件 (非常重要，否则会上传失败)
+models/
+chroma_db/
+
+# 临时文件和隐私
+data/
+.env
+.DS_Store
